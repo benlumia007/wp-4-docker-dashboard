@@ -10,12 +10,6 @@
 
  require_once 'yaml.php';
 
- function endsWith( $haystack, $needle ) {
-    $length = strlen( $needle );
-    return $length === 0 ||
-    ( substr( $haystack, -$length ) === $needle );
-}
-
 function sites() {
     $yaml = new Alchemy\Component\Yaml\Yaml();
     $data = $yaml->load( ( file_exists( '/var/www/html/dashboard/public_html/config/docker-custom.yml' ) ) ? '/var/www/html/dashboard/public_html/config/docker-custom.yml' : '' );
