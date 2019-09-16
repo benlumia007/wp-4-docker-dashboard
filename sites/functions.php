@@ -20,7 +20,8 @@ function sites() {
     $yaml = new Alchemy\Component\Yaml\Yaml();
     $data = $yaml->load( ( file_exists( '/var/www/html/dashboard/public_html/config/docker-custom.yml' ) ) ? '/var/www/html/dashboard/public_html/config/docker-custom.yml' : '' );
     foreach ($data['sites'] as $name => $site ) { ?>
-        <div class="entry-content"> <?php
+        <div class="entry-content"> 
+            <?php
             $provision = $site['provision'];
 
             if ( $provision == 1 ) { ?>
