@@ -49,7 +49,7 @@
             <section class="entry-content">
                 <p>Welcome, you have sucessfully installed Docker for WordPress, a development environment. You now have full access to all available features
                 that are included in this environment. If you need help, head over to the docs to learn more.</p>
-                <p>Docker for WordPress is an open source peoject that can be used with Linux and Docker for Mac. Currently, Docker for WordPress doesn't have
+                <p>Docker for WordPress is an open source project that can be used with Linux and Docker for Mac. Currently, Docker for WordPress doesn't have
                 automation, therfore, is not fully functional at the moment nor it will be.</p>
                 <h1>Requirements</h1>
                 <p>Docker for WordPress requires couple of things that can help speed up the automation, but please note that the automation works only with Linux
