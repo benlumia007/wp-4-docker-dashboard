@@ -60,6 +60,14 @@
                 </ul>
                 <p>Also of course, you will need Docker for Linux if you are using Ubuntu or Elementary OS and if you are using a Mac, then you should at least have
                 Docker for Mac. Apparently again, Docker for Windows may not work without automation.</p>
+                <h1>How it works</h1>
+                <p>When you first clone or download the project for the first time, it will generate all necessary configurations needed in the initial stage. this
+                will generate a dashboard that you can access with sites, phpMyAdmin, MailHog,docs and support.</p>
+                <p>All you will need to do is type <code>make</code>, it will generate a config files for dashboard, certificates and downloads all of the resources
+                needed. After you have successfully done so, you can use <code>docker-compose up -d</code> or <code>make docker-server</code> to start the containers.
+                These containers are nginx, mysql, phpfpm, and mailhog. phpMyAdmin is already been set as part of the dashboard.</p>
+                <p>The certificates are required to be install, you will just need the ca.crt install to able to access the dashboard and the rest of the resources that
+                comes with.</p>
             </section>
         </section>
     </div>
