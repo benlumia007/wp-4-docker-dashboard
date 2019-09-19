@@ -23,6 +23,8 @@ function sites() {
                 <?php foreach ( $site['host'] as $host ) { ?>
                     <a class="link" href="<?php echo 'https://'.$host; ?>" target="_blank"><?php echo 'https://'.$host; ?></a>
                 <?php }
+            } else {
+                echo "shit";
             } ?>
         </div>
         <?php
