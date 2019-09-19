@@ -68,6 +68,12 @@
                 These containers are nginx, mysql, phpfpm, and mailhog. phpMyAdmin is already been set as part of the dashboard.</p>
                 <p>The certificates are required to be install, you will just need the ca.crt install to able to access the dashboard and the rest of the resources that
                 comes with.</p>
+                <h1>Your First Site</h1>
+                <p>In the docker-compose.yml file inside of the config folder, this is where you want to setup your sites at, yes, i said sites, you can actually create
+                multiple sites if you wish to do so. Currently, by default, there is a sandbox that has been pre-defined and provision is set to false. When you set it to
+                true, and enter <code>make</code>, this will then generated the configs, certs and other stuff that needed for sandbox to work. This also includes adding
+                the domain to the hosts file automatically. After it finishes, you can do a <code>docker-compose restart which restarts all containers or a <code>make docker-server<code>
+                which also tells container to restart.<p>
             </section>
         </section>
     </div>
