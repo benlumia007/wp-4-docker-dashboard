@@ -23,9 +23,11 @@ function sites() {
                 <?php foreach ( $site['host'] as $host ) { ?>
                     <a class="link" href="<?php echo 'https://'.$host; ?>" target="_blank"><?php echo 'https://'.$host; ?></a>
                 <?php }
-            } else {
-                echo "shit";
-            } ?>
+            } else { ?>
+                <p>
+                    Ready to begin,  all you will need to do is head over to the docker-custom.yml and set provision to true to begin provisioning.
+                </p>
+            <?php } ?>
         </div>
         <?php
     }
