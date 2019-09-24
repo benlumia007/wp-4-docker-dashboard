@@ -30,7 +30,7 @@
                     <li><a href="https://dashboard.test/sites">Sites</a></li>
                     <li><a href="https://dashboard.test/phpmyadmin" target="_blank">phpMyAdmin</a></li>
                     <li><a href="http://dashboard.test:8025" target="_blank">MailHog</a></li>
-                    <li><a href="https://dashboard.test/phpinfo.php" target="_blank">PHPInfo</a></li>
+                    <li><a href="https://dashboard.test/phpinfo" target="_blank">PHPInfo</a></li>
                     <li><a href="https://dashboard.test/docs">Docs</a></li>
                     <li><a href="https://dashboard.test/support">Support</a></li>
                 </ul>
