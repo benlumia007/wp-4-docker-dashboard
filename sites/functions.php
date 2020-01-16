@@ -12,7 +12,7 @@
 
 function sites() {
     $yaml = new Alchemy\Component\Yaml\Yaml();
-    $data = $yaml->load( ( file_exists( '/var/www/html/dashboard/public_html/config/docker-custom.yml' ) ) ? '/var/www/html/dashboard/public_html/config/docker-custom.yml' : '' );
+    $data = $yaml->load( ( file_exists( '.global/docker-custom.yml' ) ) ? '.global/docker-custom.yml' : '' );
     foreach ($data['sites'] as $name => $site ) { ?>
         <div class="entry-content"> 
             <?php
