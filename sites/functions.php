@@ -20,7 +20,7 @@ function sites() {
 
             if ( $provision == 1 ) { ?>
                 <h2 class="site-name"><?php echo strip_tags( $site ); ?></h2> 
-                <a class="link" href="<?php echo 'https://'.$site.'test'; ?>" target="_blank"><?php echo 'https://'.$site.'test'; ?></a>
+                <a class="link" href="<?php echo 'https://'.$site.'.test'; ?>" target="_blank"><?php echo 'https://'.$site.'.test'; ?></a>
             <?php } ?>
         </div>
         <?php
