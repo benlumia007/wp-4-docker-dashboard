@@ -19,8 +19,8 @@ function sites() {
             $provision = $data['sites']['provision'];
 
             if ( $provision == 1 ) { ?>
-                <h2 class="site-name"><?php echo strip_tags( $name ); ?></h2> 
-                <a class="link" href="<?php echo 'https://'.$name; ?>" target="_blank"><?php echo 'https://'.$name; ?></a>
+                <h2 class="site-name"><?php echo strip_tags( $site ); ?></h2> 
+                <a class="link" href="<?php echo 'https://'.$site; ?>" target="_blank"><?php echo 'https://'.$site; ?></a>
             <?php } ?>
         </div>
         <?php
