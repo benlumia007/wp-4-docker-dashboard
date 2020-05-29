@@ -21,8 +21,7 @@ function sites() {
             if ( $provision == 1 ) { ?>
                 <h2 class="site-name"><?php echo strip_tags( $name ); ?></h2> 
                 <a class="link" href="<?php echo 'https://'.$name; ?>" target="_blank"><?php echo 'https://'.$name; ?></a>
-            } 
-            ?>
+            <?php } ?>
         </div>
         <?php
     }
