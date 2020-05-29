@@ -16,7 +16,7 @@ function sites() {
     foreach ($data['sites']['domain'] as $name => $site ) { ?>
         <div class="entry-content"> 
             <?php
-            $provision = $site['provision'];
+            $provision = $data['sites']['provision'];
 
             if ( $provision == 1 ) { ?>
                 <h2 class="site-name"><?php echo strip_tags( $name ); ?></h2> 
