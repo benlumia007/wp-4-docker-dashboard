@@ -23,7 +23,7 @@ require 'functions.php';
 	<header id="header" class="site-header">
 		<div class="branding-navigation">
 			<div class="site-branding">
-				<h1 class="site-title"><a href="https://dashboard.test">Sandbox</a></h1>
+				<h1 class="site-title"><a href="https://dashboard.test">WP 4 Docker</a></h1>
 				<h3 class="site-description">WordPress Development</h3>
 			</div>
 			<div class="primary-navigation">
@@ -49,7 +49,7 @@ require 'functions.php';
 	</section>
 	<footer id="footer" class="site-footer">
 		<div class="site-info">
-			Copyright (C) 2019. All Rights Reserved
+			Copyright (C) 2019-2020. All Rights Reserved
 		</div>
 	</footer>
 </div>
