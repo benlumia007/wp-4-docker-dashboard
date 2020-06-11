@@ -21,7 +21,7 @@ function sites() {
             if ( $provision == 1 ) { ?>
                 <h2 class="site-name"><?php echo strip_tags( $name ); ?></h2> 
                 <?php foreach ( $site['host'] as $host ) { ?>
-                    <a class="link" href="<?php echo 'https://'.$host'.test'; ?>" target="_blank"><?php echo 'https://'.$host'.test'; ?></a>
+                    <a class="link" href="<?php echo 'https://'.$host; ?>" target="_blank"><?php echo 'https://'.$host; ?></a>
                 <?php }
             } 
             ?>
