@@ -38,21 +38,10 @@
     </header>
     <section id="content" class="site-content">
         <section class="content-area">
-            <header class="entry-header">
-                <h1 class="entry-title">Welcome to Docker for WordPress</h1>
-            </header>
             <section class="entry-content">
-                <p>Welcome, you have sucessfully installed Docker for WordPress, a development environment. You now have full access to all available features
-                that are included in this environment. If you need help, head over to the docs to learn more.</p>
-                <p>Docker for WordPress is an open source project that can be used with Linux and Docker for Mac. Currently, Docker for WordPress doesn't have
-                automation, therfore, is not fully functional at the moment nor it will be.</p>
-                <h1>Requirements</h1>
-                <p>Docker for WordPress requires couple of things that can help speed up the automation, but please note that the automation works only with Linux
-                and macOS. The following items that are require as follow.</p>
-                <ul>
-                    <li>shyaml for Linux and macOS</li>
-                    <li>wget for macOS</li>
-                </ul>
+                <p>Welcome, you have sucessfully installed WP 4 Docker, a WordPress development environment. You now have full access to all available features
+                that are included in this environment.</p>
+                <p>WP 4 Docker is an open source project that can be used with latest version of WSL2 for Windows 10 Home, Linux and macOS.</p>
                 <p>Also of course, you will need Docker for Linux if you are using Ubuntu or Elementary OS and if you are using a Mac, then you should at least have
                 Docker for Mac. Apparently again, Docker for Windows may not work without automation.</p>
                 <h1>How it works</h1>
