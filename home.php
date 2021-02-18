@@ -14,7 +14,9 @@
 			<?php foreach ( $entries->all() as $entry ) : ?>
 
 			<?php Benlumia007\Alembic\Engine::view( 'public/views/content', [ $entry->type()->name() ], [ 'entry' => $entry ] )->display() ?>
-			<?php sites(); ?>
+			<div class="site-grid">
+				<?php sites(); ?>
+			</div>
 
 			<?php endforeach ?>
 
