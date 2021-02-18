@@ -26,3 +26,24 @@ function social_navigation() {
 		<li class="menu-item"><a href="<?= e( $title['url'] ); ?>" target="_blank"><svg><?php include( public_path() . e( $title['svg'] ) ); ?></svg></a></li>
 	<?php }
 }
+
+
+function sites() {
+    $yaml = new Benlumia007\Alembic\Tools\Yaml();
+    $data = $yaml->load( ( file_exists( '/srv/.global/custom.yml' ) ) ? '/srv/.global/custom.yml' : '' );
+    foreach ($data['sites'] as $name => $site ) { ?>
+        <div class="entry-content"> 
+            <?php
+            $provision = $site['provision'];
+
+            if ( $provision == 1 ) { ?>
+                <h2 class="site-name"><?php echo strip_tags( $name ); ?></h2> 
+                <?php foreach ( $site['host'] as $host ) { ?>
+                    <a class="link" href="<?php echo 'https://'.$host; ?>" target="_blank"><?php echo 'https://'.$host; ?></a>
+                <?php }
+            } 
+            ?>
+        </div>
+        <?php
+    }
+}

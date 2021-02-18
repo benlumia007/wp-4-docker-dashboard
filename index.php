@@ -33,17 +33,17 @@ $dashboard->proxy( Benlumia007\Alembic\Proxies\Engine::class, 'Benlumia007\Alemb
 $dashboard->proxy( Benlumia007\Alembic\Proxies\ContentTypes::class, 'Benlumia007\Alembic\ContentTypes' );
 $dashboard->boot();
 
-$dashboard->routes->get( 'blog/feed', Benlumia007\Alembic\Controllers\Feed::class, 'top' );
-$dashboard->routes->get( 'blog/page/{number}', Benlumia007\Alembic\Controllers\Blog::class, 'top' );
+// $dashboard->routes->get( 'blog/feed', Benlumia007\Alembic\Controllers\Feed::class, 'top' );
+// $dashboard->routes->get( 'blog/page/{number}', Benlumia007\Alembic\Controllers\Blog::class, 'top' );
 
-Benlumia007\Alembic\ContentTypes::add( 'category', new Benlumia007\Alembic\Entry\Types\Category( $dashboard->routes ) );
-Benlumia007\Alembic\ContentTypes::add( 'tag', new Benlumia007\Alembic\Entry\Types\Tag( $dashboard->routes ) );
-Benlumia007\Alembic\ContentTypes::add( 'author', new Benlumia007\Alembic\Entry\Types\Author( $dashboard->routes ) );
-Benlumia007\Alembic\ContentTypes::add( 'post', new Benlumia007\Alembic\Entry\Types\Post( $dashboard->routes ) );
+// Benlumia007\Alembic\ContentTypes::add( 'category', new Benlumia007\Alembic\Entry\Types\Category( $dashboard->routes ) );
+// Benlumia007\Alembic\ContentTypes::add( 'tag', new Benlumia007\Alembic\Entry\Types\Tag( $dashboard->routes ) );
+// Benlumia007\Alembic\ContentTypes::add( 'author', new Benlumia007\Alembic\Entry\Types\Author( $dashboard->routes ) );
+// Benlumia007\Alembic\ContentTypes::add( 'post', new Benlumia007\Alembic\Entry\Types\Post( $dashboard->routes ) );
 Benlumia007\Alembic\ContentTypes::add( 'page', new Benlumia007\Alembic\Entry\Types\Page( $dashboard->routes ) );
 Benlumia007\Alembic\ContentTypes::registerRoutes();
-$dashboard->routes->get( '/', Benlumia007\Alembic\Controllers\Blog::class );
-// $dashboard->routes->get( '/', Benlumia007\Alembic\Controllers\Home::class );
+// $dashboard->routes->get( '/blog', Benlumia007\Alembic\Controllers\Blog::class );
+$dashboard->routes->get( '/', Benlumia007\Alembic\Controllers\Home::class );
 
 if ( isset( $_GET['bust-cache'] ) ) {
 
