@@ -1,4 +1,4 @@
 ---
 title: "Sites"
 ---
-Here are sites that gets generated.
+Here, you will find sites that has been generated for easy access through the dashboard.
