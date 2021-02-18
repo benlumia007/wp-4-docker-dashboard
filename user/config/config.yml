@@ -1,9 +1,7 @@
-title: "Benjamin Lu"
-tagline: "Life and Stuff"
+title: "WP 4 Docker"
+tagline: "WordPress & ClassicPress Development"
 
 primary:
-  - title: "Sites"
-    url:   "/sites"
   - title: "phpMyAdmin"
     url: "/phpmyadmin"
   - title: "PHPInfo"
