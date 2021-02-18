@@ -212,6 +212,10 @@ h6 {
   text-align: center;
   padding: 1rem;
 }
+.site-content .content-area .entry-site .entry-content .site-name {
+  margin: 0;
+  padding: 0;
+}
 
 .site-footer {
   background: #fcfcfc;
