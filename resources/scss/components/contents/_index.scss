@@ -1,0 +1,98 @@
+////
+/// Primary screen stylesheet.
+///
+/// This is the primary stylesheet. We don't actually write any styles here.
+/// Instead, we import all of our styles from partials within the sub-folders.
+/// This file is set up based on the Inverted Triangle CSS (ITCSS) system,
+/// which gets more specific as we drill down each layer.  This keeps your
+/// style code lean and organized.
+///
+/// The bulk of your code should be within the `/components` folder.  By
+/// default, we follow the Block-Element-Modifier (BEM) system in our HTML.
+/// Each "block" is a "component" in our CSS.
+///
+/// @group  Styles
+/// @author Justin Tadlock <justintadlock@gmail.com>
+/// @link   https://themehybrid.com/themes/mythic
+////
+
+// Imports all of the files needed for front-end output. Note that the order is
+// very specific and should typically not be changed.
+
+.site-content {
+	padding-top: 3rem;
+
+	.content-area {
+		line-height: 2rem;
+		margin: 0 auto;
+		max-width: 43.75rem;
+	
+		.post {
+			margin-bottom: 5rem;
+
+			.entry-header {
+				text-align: center;
+	
+				.entry-title {
+					margin: 0 0 0.5rem 0;
+					padding: 0;
+
+					a {
+						border-bottom: none;
+						color: color( black );
+					}
+				}
+
+				.entry-metadata {
+					.entry-author {
+						font-style: italic;
+
+						svg {
+							height: 1rem;
+							width: 1rem;
+							padding-right: 0.2rem;
+						}
+					}
+
+					.entry-date {
+						font-style: italic;
+						
+						svg {
+							height: 1rem;
+							width: 1rem;
+							padding: 0 0.2rem 0 0.5rem;
+						}
+					}
+				}
+			}
+
+			.entry-content {
+				.entry-anchor {
+					font-style: italic;
+					font-family: font-family( primary );
+					margin-left: -2.5rem;
+					margin-right: 1.250rem;
+				}
+			}
+		}
+
+		.page {
+			.entry-header {
+				text-align: center;
+
+				.entry-title {
+					margin: 0;
+					padding: 0;
+				}
+			}
+
+			.entry-content {
+				.entry-anchor {
+					font-style: italic;
+					margin-left: -2.5rem;
+					margin-right: 1.250rem;
+				}
+			}
+		}
+	}
+}

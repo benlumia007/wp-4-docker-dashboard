@@ -1,5 +1,5 @@
 {
-    "name": "benlumia007/wp-4-docker-dashboard",
+    "name": "benlumia007/benjlu",
     "description": "Merlot is a flat content management system based on PHP.",
     "keywords": [
         "cms",
@@ -16,7 +16,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Dashboard\\": "app/"
+            "Benjlu\\": "app/"
 		},
 		"files":[
 			"app/functions-setup.php"

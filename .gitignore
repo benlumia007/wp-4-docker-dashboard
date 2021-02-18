@@ -1,1 +1,7 @@
+node_modules
+public/css/
+public/js
+public/mix-manifest.json
+user/cache/content
+user/content/_post
 vendor
