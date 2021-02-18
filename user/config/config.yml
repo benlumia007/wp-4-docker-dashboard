@@ -6,6 +6,8 @@ primary:
     url: "/phpmyadmin"
   - title: "PHPInfo"
     url: "/phpinfo"
+  - title: "Support"
+    url: "/support"
 
 social:
   - title: "Facebook"
