@@ -93,6 +93,16 @@
 					margin-right: 1.250rem;
 				}
 			}
+
+			.entry-site {
+				display: grid;
+				grid-template-columns: 1fr 1fr 1fr;
+				grid-gap: 1.125rem;
+				text-align: center;
+				padding: 1rem;
+
+
+			}
 		}
 	}
 }
