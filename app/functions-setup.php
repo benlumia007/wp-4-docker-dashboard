@@ -32,7 +32,7 @@ function sites() {
     $yaml = new Benlumia007\Alembic\Tools\Yaml();
     $data = $yaml->load( ( file_exists( '/srv/.global/custom.yml' ) ) ? '/srv/.global/custom.yml' : '' );
     foreach ($data['sites'] as $name => $site ) { ?>
-        <div class="entry-content"> 
+        <div class="entry-site"> 
             <?php
             $provision = $site['provision'];
 
