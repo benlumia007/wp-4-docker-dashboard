@@ -1,6 +1,5 @@
 node_modules
-public/css/
-public/js
+phpmyadmin
 public/mix-manifest.json
 user/cache/content
 user/content/_post
