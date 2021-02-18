@@ -14,10 +14,7 @@
 			<?php foreach ( $entries->all() as $entry ) : ?>
 
 			<?php Benlumia007\Alembic\Engine::view( 'public/views/content', [ $entry->type()->name() ], [ 'entry' => $entry ] )->display() ?>
-			<div class="entry-site">
 				<?php sites(); ?>
-			</div>
-
 			<?php endforeach ?>
 
 			<?php Benlumia007\Alembic\Engine::view( 'public/views/pagination', [], $data )->display() ?>
