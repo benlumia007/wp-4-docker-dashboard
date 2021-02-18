@@ -1,5 +1,5 @@
 <?php
 
 return [
-	'uri' => 'https://superman.test',
+	'uri' => 'https://dashboard.test',
 ];
