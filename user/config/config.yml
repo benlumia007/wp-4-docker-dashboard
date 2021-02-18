@@ -4,6 +4,10 @@ tagline: "Life and Stuff"
 primary:
   - title: "Sites"
     url:   "/sites"
+  - title: "phpMyAdmin"
+    url: "/phpmyadmin"
+  - title: "PHPInfo"
+    url: "/phpinfo"
 
 social:
   - title: "Facebook"
