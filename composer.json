@@ -1,0 +1,28 @@
+{
+    "name": "benlumia007/wp-4-docker-dashboard",
+    "description": "Merlot is a flat content management system based on PHP.",
+    "keywords": [
+        "cms",
+        "flat"
+    ],
+    "homepage": "https://github.com/benlumia007/mint",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Benjamin Lu",
+            "email": "benlumia007@gmail.com",
+            "homepage": "https://getbenonit.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dashboard\\": "app/"
+		},
+		"files":[
+			"app/functions-setup.php"
+		]
+	},
+	"require": {
+		"benlumia007/alembic-core": "dev-develop"
+	}
+}
