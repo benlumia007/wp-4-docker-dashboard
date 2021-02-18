@@ -216,6 +216,9 @@ h6 {
   margin: 0;
   padding: 0;
 }
+.site-content .content-area .entry-site .entry-content .site-link {
+  border-bottom: none;
+}
 
 .site-footer {
   background: #fcfcfc;
