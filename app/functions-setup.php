@@ -30,9 +30,10 @@ function social_navigation() {
 
 function sites() {
     $yaml = new Benlumia007\Alembic\Tools\Yaml();
-    $data = $yaml->load( ( file_exists( '/srv/.global/custom.yml' ) ) ? '/srv/.global/custom.yml' : '' );
-    foreach ($data['sites'] as $name => $site ) { ?>
-        <div class="entry-site"> 
+    $data = $yaml->load( ( file_exists( '/srv/.global/custom.yml' ) ) ? '/srv/.global/custom.yml' : '' ); ?>
+    <div class="entry-site">
+    <?php foreach ($data['sites'] as $name => $site ) { ?>
+        <div class="entry-content"> 
             <?php
             $provision = $site['provision'];
 
@@ -46,5 +47,6 @@ function sites() {
             <?php } ?>
         </div>
         <?php
-    }
-}
+    } ?>
+    </div>
+<?php }
