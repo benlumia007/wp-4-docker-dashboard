@@ -1,4 +1,4 @@
 ---
-title: "Welcome"
+title: "Sites"
 ---
-Welcome
+Here are sites that gets generated.
