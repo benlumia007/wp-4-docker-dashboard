@@ -37,12 +37,13 @@ function sites() {
             $provision = $site['provision'];
 
             if ( $provision == 1 ) { ?>
-                <h2 class="site-name"><?php echo strip_tags( $name ); ?></h2> 
-                <?php foreach ( $site['host'] as $host ) { ?>
-                    <a class="site-link" href="<?php echo 'https://'.$host; ?>" target="_blank"><?php echo 'https://'.$host; ?></a>
-                <?php }
-            } 
-            ?>
+                <div class="entry-header">
+                    <h2 class="site-name"><?php echo strip_tags( $name ); ?></h2>
+                    <?php foreach ( $site['host'] as $host ) { ?>
+                        <a class="site-link" href="<?php echo 'https://'.$host; ?>" target="_blank"><?php echo 'https://'.$host; ?></a>
+                    <?php } ?>
+                </div>
+            <?php } ?>
         </div>
         <?php
     }
