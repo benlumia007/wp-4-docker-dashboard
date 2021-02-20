@@ -29,8 +29,7 @@ function social_navigation() {
 
 
 function sites() {
-    $yaml = new Benlumia007\Alembic\Tools\Yaml();
-    $data = $yaml->load( ( file_exists( '/srv/.global/custom.yml' ) ) ? '/srv/.global/custom.yml' : '' ); ?>
+    $data = Dashboard\Component\Yaml::get_instance()->get_data(); ?>
     <div class="entry-site">
     <?php foreach ($data['sites'] as $name => $site ) { ?>
         <div class="entry-content"> 
