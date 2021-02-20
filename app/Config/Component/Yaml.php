@@ -12,7 +12,7 @@
 /**
  * Define namespace
  */
-namespace Dashboard\Component;
+namespace Dashboard\Config\Component;
 use Benlumia007\Alembic\App;
 
 class Yaml {
