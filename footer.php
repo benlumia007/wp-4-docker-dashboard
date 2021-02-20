@@ -10,13 +10,8 @@
 ?>
 <footer id="footer" class="site-footer">
         <div class="site-info">
-            <p class="credit">Powered by heart and soul.</p>
-        </div>  
-		<nav id="social" class="menu-social">
-			<ul class="menu-items">
-				<?php e( social_navigation() ); ?>
-			</ul>
-		</nav>              
+            <p class="credit">Copyright (C) 2019-2021.</p>
+        </div>               
 	</footer>
 </section>
 </body>
