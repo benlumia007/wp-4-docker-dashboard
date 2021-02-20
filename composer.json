@@ -16,7 +16,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Benjlu\\": "app/"
+            "Dashboard\\": "app/"
 		},
 		"files":[
 			"app/functions-setup.php"
