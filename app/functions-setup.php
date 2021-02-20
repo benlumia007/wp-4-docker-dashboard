@@ -29,7 +29,7 @@ function social_navigation() {
 
 
 function sites() {
-    $data = Dashboard\Component\Yaml::get_instance()->get_data(); ?>
+    $data = Dashboard\Config\Component\Yaml::get_instance()->get_data(); ?>
     <div class="entry-site">
     <?php foreach ($data['sites'] as $name => $site ) { ?>
         <div class="entry-content"> 
