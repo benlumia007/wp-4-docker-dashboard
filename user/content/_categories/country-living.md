@@ -1,3 +1,0 @@
----
-title : Country Living
----
