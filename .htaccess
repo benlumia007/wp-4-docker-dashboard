@@ -1,6 +1,6 @@
 RewriteEngine On
 RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://benjlu.com/$1 [R,L]
+RewriteRule ^(.*)$ https://dashboard.test/$1 [R,L]
 
 RewriteBase /
 
