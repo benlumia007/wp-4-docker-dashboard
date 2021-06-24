@@ -3,7 +3,7 @@
 return [
 	'meta' => [
 		'defaults' => [
-			'author'   => 'Dashboard',
+			'author'   => 'Benjamin Lu',
 			'category' => 'General'
 		]
 	]
