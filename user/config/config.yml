@@ -4,7 +4,5 @@ tagline: "Sturdy Docker"
 primary:
   - title: "phpMyAdmin"
     url: "/phpmyadmin"
-  - title: "PHPInfo"
-    url: "/phpinfo"
   - title: "Support"
     url: "/support"
