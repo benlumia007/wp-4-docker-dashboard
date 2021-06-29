@@ -19,7 +19,7 @@ const rimraf  = require( 'rimraf' );
 const fs      = require( 'fs' );
 
 // Folder name to export the files to.
-let exportPath = 'benjlu';
+let exportPath = 'public_html';
 
 // Theme root-level files to include.
 let files = [
