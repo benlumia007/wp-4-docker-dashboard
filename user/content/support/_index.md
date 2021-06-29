@@ -1,4 +1,4 @@
 ---
 title: "Support"
 ---
-Support
+Welcome to the Support!
